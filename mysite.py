@@ -1,1 +1,2 @@
-print 'abcd¹þ'
+#coding=utf8
+print 'abcdå“ˆ'
