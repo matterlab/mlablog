@@ -1,4 +1,5 @@
 # Django settings for mlablog project.
+import os.path
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/tor/web/mlablog/data.db',                      # Or path to database file if using sqlite3.
+        'NAME': 'd:/mlablog/data.db',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -78,7 +79,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'mlablog.urls'
 
 TEMPLATE_DIRS = (
-    "/home/tor/web/mlablog/templates"
+    'd:/mlablog/templates',
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
