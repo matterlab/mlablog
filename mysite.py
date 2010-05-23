@@ -1,1 +1,1 @@
-print 'abcd¹þ¹þ'
+print 'abcd¹þ'
